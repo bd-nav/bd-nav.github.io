@@ -74,7 +74,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present BD-Nav, a language-conditioned graph planning and navigation framework that integrates large language models with OpenStreetMap to generate routes aligned with user intent. Unlike prior approaches that treat language primarily as goal specification, BD-Nav interprets free-form instructions to modify both graph feasibility and traversal cost, enabling route-level constraints such as safety preferences, environmental conditions, avoidance rules, and ordered waypoints. The framework combines intent grounding, instruction-aware edge weighting, and semantic path verification within a unified planning pipeline. The resulting instruction-conditioned path is executed on a quadruped robot using SLAM-based localization and control. Extensive experiments across diverse OSM scenarios and real-world outdoor navigation demonstrate improved instruction alignment, robustness to incomplete map data, and reliable execution.
+            We present BD-Nav, a language-conditioned graph planning and navigation framework that integrates large language models with OpenStreetMap to generate routes aligned with user intent. Unlike prior approaches that treat language primarily as goal specification, BD-Nav interprets free-form instructions to modify both graph feasibility and traversal cost, enabling route-level constraints such as safety preferences, environmental conditions, avoidance rules, and ordered waypoints. The framework combines intent grounding, instruction-aware edge cost modeling, and semantic path verification within a unified planning pipeline. The resulting instruction-conditioned path is executed on a quadruped robot using SLAM-based localization and control. Extensive experiments across diverse map-based scenarios and real-world outdoor navigation demonstrate improved instruction alignment, practical handling of incomplete map connectivity, and reliable execution.
           </p>
         </div>
       </div>
@@ -132,7 +132,7 @@
         <div class="content">
           <h2 class="title is-3">Graph Loader and Feature Extractor Process</h2>
           <center>
-            <img src="static/images/fig3.jpg" class="center-image blend-img-background" style="width:70%;"/>
+            <img src="static/images/fig3.jpg" class="center-image blend-img-background" style="width:60%;"/>
           </center>
         </div>
       </div>
